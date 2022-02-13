@@ -17,6 +17,9 @@ void disp_Array(void);
 int main(void)
 
 {
+           
+
+
 
     char done;
     printf("*****************************************\n");
@@ -27,7 +30,7 @@ int main(void)
     char str[20];
     printf("\n");
     gets(str);
-    printf("\n\nHello %s ... Let's have fun!! You = X | Computer = O\n",str);
+    printf("\n\nHello %s ... Let's have fun!! You = O | Computer = X\n",str);
     printf("\n");
     done = ' ';
 
